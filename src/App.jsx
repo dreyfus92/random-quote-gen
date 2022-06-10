@@ -31,7 +31,7 @@ function App() {
     }
     return (
         <div onLoad={getQuote} id="wrapper">
-            <m.div animate={{ x: 100 }} id="quote-box">
+            <div id="quote-box">
                 <p id="text">"{quote.text}"</p>
                 <p id="author">{quote.author}</p>
                 <div id="button-cont">
@@ -50,7 +50,7 @@ function App() {
                         New Quote
                     </button>
                 </div>
-            </m.div>
+            </div>
         </div>
     )
 }

@@ -13,8 +13,7 @@
 }
 
 #quote-box {
-    max-width: 30em;
-    min-width: 25em;
+    width: 30em;
     background-color: #e9edc9;
     padding: 2em;
     border: 1px solid #fefae0;
@@ -56,4 +55,16 @@
     padding: 0.85em;
     border-radius: 0.75em;
     border: 1px solid #fefae0;
+}
+
+@media (max-width: 300px) {
+    #wrapper {
+        height: 100vh;
+    }
+
+    #quote-box {
+        width: 5em;
+        margin-right: 10px;
+        background-color: red;
+    }
 }
