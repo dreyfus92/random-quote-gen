@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: #1f5457;
+}
+
+#wrapper {
+    height: 100vh;
+    background-color: #d4a373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    max-width: 30em;
+    min-width: 25em;
+    background-color: #e9edc9;
+    padding: 2em;
+    border: 1px solid #fefae0;
+    border-radius: 2em;
+    font-size: 1.5em;
+}
+
+#text {
+    text-align: justify;
+    margin-right: 0.35em;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+#author {
+    margin-top: 0.65em;
+    margin-right: 0.35em;
+    text-align: end;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+
+#button-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75em;
+}
+
+#but-twitter {
+    background-color: #ccd5ae;
+    padding: 0.55em;
+    border-radius: 0.75em;
+    border: 2px solid #fefae0;
+}
+
+#new-quote {
+    background-color: #ccd5ae;
+    padding: 0.85em;
+    border-radius: 0.75em;
+    border: 1px solid #fefae0;
+}
